@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+}
+#sketch{
+    margin-right: 5;
+    margin-top: 3;
+}
+h1{
+    color: brown;
+    background-color: aliceblue;
+    font-weight: bolder;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: qwe;
+    animation-duration: 4s;
+    margin-top: 52px ;
+    animation-iteration-count: infinite ;
+}
+@keyframes qwe {
+    from{box-shadow: 1px 1px 38px grey;}
+    to{box-shadow: 1px 1px 38px white;}
+}
+#sketch{
+    float: right;
+}
+p{
+    padding-top: 10px;
+    font-size: 20px;
+    color: blueviolet;
+}
+#Sketch-Drawn{
+    padding-top: 10px;
+    font-size: 20px;
+    color: orange;
+    font-weight: bolder;
+    margin-bottom: 15px; 
+}
+#y{
+    float: left;
+    margin-left: 30px;
+    font-size: 30px;
+    color: green;
+}
+#x{
+    float: right;
+    margin-right: 30px;
+    font-size: 30px;
+    color: red;
+}
+#l{
+    margin-top: 400px;
+}
